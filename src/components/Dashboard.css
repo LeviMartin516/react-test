@@ -1,0 +1,365 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+  }
+.header {
+    background-color: #20124D; /* Set the background color for the header */
+    color: white; /* Set the text color */
+    height: 72px;
+
+  }
+  .crud-form {
+    position: absolute;
+    margin-left: 1500px;
+    flex: 1;
+    padding: 20px; /* Adjust as needed */
+    background-color: #f0f0f0;
+    width: 380px;
+    height: 840px;
+    margin-top: -146px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  
+  .crud-form input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Add margin to create space between input fields */
+    padding: 8px; /* Adjust as needed */
+    width: 80%;
+    height: 23px;
+    margin-left: 30px;
+    display: block;
+
+  }
+  
+  .CreateNewDiv{
+    background-color: white;
+    height: auto;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    height: 840px;
+    margin-top: 440px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 70px;
+    height: auto;
+  }
+  .logo-ab-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 14px;
+  }
+  .logo-abc-avatar {
+    width: 50px;
+    height: 50px; /* Adjusted height */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db; /* Example background color */
+    color: #ffffff; /* Example text color */
+    font-weight: bold;
+  }
+  .site-title {
+    margin-top: -70px; /* Remove default margin for the h1 element */
+    font-size: 30px;
+    opacity: 85%;
+    margin-left: 15px;
+  }
+  .site-title-right {
+    margin-top: -75px; /* Remove default margin for the h1 element */
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 1100px;
+    align-items: right;
+    font-family: Arial;
+  } 
+  .avatar {
+    width: 50px;
+    height: 50px; /* Adjusted height */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db; /* Example background color */
+    color: #ffffff; /* Example text color */
+    font-weight: bold;
+  }
+  .logo-avatar {
+    width: 50px;
+    height: 50px; /* Adjusted height */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    margin-top: -100px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db; /* Example background color */
+    color: #ffffff; /* Example text color */
+    font-weight: bold;
+  }
+  .avatar-col{
+    height: 30%;
+    width: 20%;
+  }
+  .countclients{
+    margin-top: 70px;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4e4b4b;
+  }
+  .selected-row {
+    background-color: #e8e8e8; /* Or any other color you prefer */
+  }
+  .CreateNewButton {
+    padding: 5px 10px;
+    background-color: #20124D; /* Green button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    margin-top: -200px;
+    height: 50px;
+    font-size: 20px;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+
+  .CreateNewButton:active {
+    padding: 5px 10px;
+    background-color: #4e1af8; /* Green button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    margin-top: -200px;
+    height: 50px;
+    margin-left: 1400px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+  .Create-New-button{
+    margin-top: 10px;
+    margin-left: 1320px;
+  }
+  .avatar-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  background-color: white;
+  outline: none;
+  border: white;
+}
+.crud-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .main-data-table{
+    margin-right: 40px;
+    display: flex;
+  }
+  
+  .crud-table {
+    flex: 1;
+    border-collapse: collapse;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;   
+  }
+    .crud-table th,
+.crud-table td {
+  border: none;
+
+  padding: 8px; /* Adjusted height */
+  text-align: center;
+}
+.crud-form select {
+  width: 85%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  height: 45px;
+}
+.showLogOut{
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  .crud-table th {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    background-color: f7f7f7;
+    color: black;
+    text-align: center;
+    height: 40px;
+  }
+  .LogOutButton{
+    padding: 5px 10px;
+    background-color: #3800f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin-top: -200px;
+    margin-left: -80px;
+    height: 40px;
+    font-size: 13px;
+  }
+  .crud-table td{
+    height: 20%;
+    text-align: center;
+  }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .add-btn, .edit-btn, .delete-btn, .cancel-btn {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-btn {
+    width: 100px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #20124D;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+  .add-btn:active {
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #502cc5;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+  .NewClient{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .newclientavatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    font-size: 50px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    color: #ffffff; 
+    font-weight: bold;
+  }
+  .cancel-btn {
+    width: 100px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: red;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+  .cancel-btn:active {
+    width: 100px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: rgb(252, 78, 78);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+  .edit-btn {
+    background-color: #2196F3;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  .crud-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+
+  .logo, .logo-avatar, .logo-abc-avatar, .logo-ab-avatar {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .main-data-table {
+      width: 100%;
+    }
+  
+    .site-title-right, .CreateNewButton {
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+    }
+  
+    .countclients {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+  }
+  
+  @media (max-width: 480px) {
+    .header .logo-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .site-title, .site-title-right {
+      text-align: center;
+    }
+  
+    .logo-avatar {
+      margin-top: 10px;
+    }
+  
+  }

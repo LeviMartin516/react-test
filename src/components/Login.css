@@ -1,0 +1,77 @@
+.login-page {
+    display: flex;
+    align-items: stretch; /* Stretch items to match container height */
+    justify-content: center;
+    height: 100;
+    background-color: #20124D;
+  }
+  
+  .login-image-section {
+    flex: 0 0 70%; /* 70% width */
+    max-height: 100vh; /* 70% height */
+    object-fit: cover;
+  }
+  
+  .login-image-section img {
+    width: 100%; /* Make image fill its container */
+    height: 100%; /* Make image fill its container */
+    object-fit: cover; /* Ensure image covers entire container */
+  }
+  
+  .login-form-section {
+    flex: 1; /* Fill remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column; /* Align form items vertically */
+    align-items: center; /* Center form items horizontally */
+    max-width: 300px; /* Limit form width */
+  }
+  
+  .login-form-field {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%; /* Take full width */
+  }
+  .logo {
+    width: 200px;
+    height: auto;
+    padding-bottom: 100px;
+
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 330px;
+    padding: auto;
+  }
+  
+  .login-form-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .login-form-button {
+    width: 107%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    shape-rendering: auto;
+    background-color: #20124D;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-form-button:hover {
+    background-color: #3f51b5;
+  }
